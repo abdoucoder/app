@@ -1,0 +1,157 @@
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+header{
+	height:100px;
+	width: 100%;				
+	background-image: url(img/backheader.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#logo{
+	width: 30%;
+	height: 100%;
+	float: right;
+}
+#logoimg{
+	height: 100%;
+	border-radius: 50%;
+}
+#h1{
+	float: left;
+	color:#ff0084;
+	line-height: 100px;
+	padding: 0 15px;
+	padding-left: 200px;
+
+}
+
+nav{
+	width: 60%;
+
+}
+nav a{
+	text-decoration: none;
+	color:  #ff0084;
+}
+
+nav li{
+	display: inline-block;
+	padding: 15px;
+	font-size: 20px;
+	line-height: 70px;
+	background-color:#2639aca8;
+	width: 100px;
+	text-align: center;
+}
+nav a:hover{
+	background-color: linear-gradient(to right, #f4c4f3, #fc67fa);
+	color: #00d2ff;
+	width:100%;
+	height:100%;
+}
+main{
+	width:100%; 
+	height:500px;
+	background-color:#000000;
+	border-top: 5px solid ;
+	border-color: #ffffff;
+}
+
+aside{
+	height: 100%;
+	width: 30%;
+	background-color: #ffffff;
+	text-align: center;
+
+}
+#my_picture{
+	width: 80%;
+}
+aside a{
+	text-decoration: none;
+	color:#fc00ff;
+	float: left;
+}
+
+#articale{
+	width: 70%;
+	height: 500px;
+	background-color: #000000;
+	float: right;
+	position: relative; 
+}
+#div{
+	height:180px;
+	width:400px;
+	background-color:#ffffff ;	
+	position: absolute;
+	left: 70%;
+	top: 50%;
+	transform: translate(0%, -126%);
+	text-align: center;
+}
+div h1{
+	border-top: 2px solid ;
+	padding: 10px 0px;
+
+}
+p{
+	font-family: 'Pacifico', cursive;
+
+}
+#contact{
+	width: 100%;
+	display: flex; 
+	justify-content: center;
+	
+}
+#contact img{
+	width: 45px;
+	border-bottom: 2px solid #000000;
+	padding-left:15px;
+	padding-right: 15px;
+	transform: translate(-16%,30%)
+
+}
+#h1aside{
+	border-bottom: 2px solid #000000;
+	color:   #ff0084;
+}
+#contact img:hover{
+	width: 50px;
+	border-bottom: 2px solid #e11c0e;
+}
+#footer{
+	background-image: url(img/backheader.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height:150px; 
+} 
+footer div{
+	text-align: center;
+	color: #ff0084; 
+	margin-top: 15px;
+	padding-top:0px; 
+	border-bottom: 2px solid #ff0084;
+}
+#if{
+	width:360;
+	height: 202.5;
+	float: right;
+	padding-right:  420px;
+	transform:translate(1%,-25%); 
+} 
+@media only screen and (width: 1000px) {
+	#if{
+		width:180;
+		height:101.25; 
+		float: right;
+	padding-right:  210px;
+	transform:translate(0.5%,-12.5%); 
+	}
+}
